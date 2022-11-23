@@ -1,11 +1,11 @@
-import pic1 from "../Assets/Images/Recentlyplay/card/Rectangle3.png"
-import pic2 from "../Assets/Images/Recentlyplay/card/Rectangle.png"
-import pic3 from "../Assets/Images/Recentlyplay/card/Rectangle1.png"
-import pic4 from "../Assets/Images/Recentlyplay/card/Rectangle2.png"
-import pic5 from "../Assets/Images/Recentlyplay/card/Ellipse1.png"
-import pic6 from "../Assets/Images/Recentlyplay/card/Ellipse11.png"
-import pic7 from "../Assets/Images/Recentlyplay/card/Ellipse12.png"
-export const cardRecently=[
+import pic1 from "../Assets/Images/Hits/card/R1.png"
+import pic2 from "../Assets/Images/Hits/card/R2.png"
+import pic3 from "../Assets/Images/Hits/card/R4.png"
+import pic4 from "../Assets/Images/Hits/card/R5.png"
+import pic5 from "../Assets/Images/Hits/card/E1.png"
+import pic6 from "../Assets/Images/Hits/card/E2.png"
+import pic7 from "../Assets/Images/Hits/card/E3.png"
+export const Hits=[
     {id:1,haeder:'Hot Hits USA',content:"The hottest tracks in the United States",pic:pic1},
     {id:2,haeder:'Hot Hits USA',content:"The hottest tracks in the United States",pic:pic2},
     {id:3,haeder:'Hot Hits USA',content:"The hottest tracks in the United States",pic:pic3},

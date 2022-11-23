@@ -5,9 +5,14 @@ import MenuList from "./MenuList";
 const Layout = ({children}) => {
     return ( 
         <>
-        <Grid container>
-         <MenuList item xs={3}/>
+        <Grid display={"flex"}>
+          <Grid>
+             <MenuList item xs={3} />
+          </Grid>
+          <Grid width={'100%'}>
           {children}
+
+          </Grid>
         </Grid>
         <Footer />
         </>
