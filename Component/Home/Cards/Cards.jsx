@@ -4,7 +4,7 @@ import CardHome from "../Card/CardHome";
 
 const Cards = ({category,data}) => {
   return (
-    <Grid m={4}>
+    <Grid m={2}>
       <Grid>
         <Typography variant={'h2'}>
             {category}

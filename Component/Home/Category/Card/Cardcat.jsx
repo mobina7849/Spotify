@@ -3,7 +3,7 @@ import Image from "next/image";
 import p from "../../../../Assets/Images/category/card/Rectangle 5.png"
 const Cardcat = ({dataCat}) => {
     return ( 
-        <Card sx={{width:'340px',height:'84px'}}>
+        <Card sx={{width:'320px',height:'84px',cursor:'pointer'}}>
             <Grid display={'flex'} alignItems={'center'} >
                 <Grid>
                     <Image src={dataCat.pic}/>

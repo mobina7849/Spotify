@@ -13,7 +13,7 @@ import { Grid } from "@mui/material";
 const CardHome = ({cardData}) => {
 
   return (
-    <Card sx={{ maxWidth: "190px" ,height:'270px',borderRadius:'4px',padding:2,display:'flex',flexDirection:'column',justifyContent:'space-between'}}>
+    <Card sx={{ maxWidth: "190px" ,height:'270px',borderRadius:'4px',padding:2,display:'flex',flexDirection:'column',justifyContent:'space-between',cursor:'pointer'}}>
       {/* <CardMedia
         component="img"
         alt="green iguana"

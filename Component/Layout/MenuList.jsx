@@ -18,7 +18,7 @@ const Demo = styled('div')(({ theme }) => ({
 
 const MenuList = () => {
     return ( 
-        <Grid container spacing={2} sx={{backgroundColor:'#0000'}} bgcolor="red" width={'20%'} minWidth={200} height={'100vh'} position={'sticky'}>
+        <Grid container  sx={{backgroundColor:'#0000'}}  width={'20%'} minWidth={200} height={'100%'} position={'sticky'}>
           <Grid item xs={12}  sx={{backgroundColor:'#000'}}>
             <Grid sx={{ mt: 4, mb: 2,paddingLeft:2}} >
             <Image src={Logo} />
