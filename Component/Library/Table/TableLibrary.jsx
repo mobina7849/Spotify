@@ -39,7 +39,7 @@ const TableLibrary = () => {
                 <Grid display={"flex"} alignItems={"center"}>
                   <Grid display={"flex"} alignItems={"center"}>
                     <Grid>{item.id}</Grid>
-                    <Grid>
+                    <Grid p={1}>
                       <Image src={item.pic} />
                     </Grid>
                   </Grid>
