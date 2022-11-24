@@ -27,14 +27,12 @@ const MenuList = () => {
               <List marginButtom={2} >
                 {ListItemMenu1.map(item=>
                 <Link href={item.href} key={item.id}>
-                  <ListItem>
+                  <ListItem sx={{'&:hover': {"backgroundColor":'action.selected'}}}>
                     <ListItemIcon>
                       {item.icon}
                     </ListItemIcon>
-                    <ListItemText
-                      primary={item.text}
-                    />
-                  </ListItem>
+                    <ListItemText primary={item.text}/>
+                   </ListItem>
                 </Link>
                 )}
               </List >
@@ -42,7 +40,7 @@ const MenuList = () => {
               <List marginButtom={3} >
                 {ListItemMenu2.map(item=>
                  <Link href={item.href} key={item.id}>
-                  <ListItem>
+                  <ListItem sx={{'&:hover': {"backgroundColor":'action.selected',"borderRadius":'2px'}}}>
                     <ListItemIcon>
                       {item.icon}
                     </ListItemIcon>

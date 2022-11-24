@@ -25,7 +25,7 @@ const Banner = () => {
             </Grid>
         </Grid>
         <Grid bgcolor={"#222928"}>
-            <Grid display={"flex"} alignItems={'center'} gap={2} marginLeft={3}>
+            <Grid display={"flex"} alignItems={'center'} gap={2} marginLeft={2} p={1}>
                 <Grid><Image src={player} width={40} height={40}/></Grid>
                 <Grid><FavoriteBorderIcon/></Grid>
                 <Grid><MoreHorizIcon/></Grid>
