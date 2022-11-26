@@ -25,6 +25,11 @@ export const theme=createTheme({
             fontSize:'14px',
             fontWeight:'400',
             lineHeight:'16px'
+        },
+        body2:{
+            fontSize:'12px',
+            fontWeight:'400',
+            lineHeight:'15px'
         }
     }
 })
