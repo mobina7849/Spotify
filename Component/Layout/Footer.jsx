@@ -29,17 +29,17 @@ const Footer = () => {
 
                     </Grid>
                     <Grid display={"flex"}>
-                       <Grid px={1}><Image src={pic12}/></Grid>
-                        <Grid><Image src={pic11}/></Grid>
+                       <Grid px={1} sx={{cursor:'pointer'}}><Image src={pic12}/></Grid>
+                        <Grid sx={{cursor:'pointer'}}><Image src={pic11}/></Grid>
                     </Grid>
                 </Grid>
                 <Grid width={'20%'} >
                     <Grid display={"flex"} alignItems={'center'} justifyContent={'space-evenly'}>
-                        <Grid><Image src={pic5}/></Grid>
-                        <Grid><Image src={pic6}/></Grid>
-                        <Grid><Image src={pic7}/></Grid>
-                        <Grid><Image src={pic8}/></Grid>
-                        <Grid><Image src={pic9}/></Grid>
+                        <Grid sx={{cursor:'pointer'}}><Image src={pic5}/></Grid>
+                        <Grid sx={{cursor:'pointer'}}><Image src={pic6}/></Grid>
+                        <Grid sx={{cursor:'pointer'}}><Image src={pic7}/></Grid>
+                        <Grid sx={{cursor:'pointer'}}><Image src={pic8}/></Grid>
+                        <Grid sx={{cursor:'pointer'}}><Image src={pic9}/></Grid>
                     </Grid>
                     <Grid display={"flex"} alignItems={'center'}  justifyContent={'center'}>
                         <Typography>0:00</Typography>
@@ -48,10 +48,10 @@ const Footer = () => {
                     </Grid>
                 </Grid>
                 <Grid display={'flex'} alignItems={'center'} justifyContent={'space-evenly'} width={'20%'}>
-                    <Grid><Image src={pic1}/></Grid>
-                    <Grid><Image src={pic2}/></Grid>
-                    <Grid><Image src={pic4}/></Grid>
-                    <Grid paddingBottom={1}><Image src={pic3}/></Grid>
+                    <Grid sx={{cursor:'pointer'}}><Image src={pic1}/></Grid>
+                    <Grid sx={{cursor:'pointer'}}><Image src={pic2}/></Grid>
+                    <Grid sx={{cursor:'pointer'}}><Image src={pic4}/></Grid>
+                    <Grid sx={{cursor:'pointer'}} paddingBottom={1}><Image src={pic3}/></Grid>
                      
                 </Grid>
             </Grid>
